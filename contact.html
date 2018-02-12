@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> contact-form </title>
+    <!-- linked reset page for css and html -->
+    <link rel="reset" type="reset" href="Assets/css/reset.css">
+    <!-- linking my Css to html pages  -->
+    <link rel="stylesheet" type="text/css" href="Bootstrap-style.css">
+
+    <!-- text-decoration is used to not have a underline for About, Contact and Portfolio links  -->
+    <style type="text/css">a {text-decoration: none}</style>
+
+    <!-- Bootstrap link and responsive grid  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Fonts awsome for my Stack overflow, GitHub, and Linkedin icons  -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  </head>
+
+  <body>
+    <div class="Container">
+      <!-- nav bar for contact form with bootstrap -->
+      <div class"row">
+        <div class"col-12">
+          <div class="Levi Glendenning">
+              <h1> Levi Glendenning </h1>
+            <nav class="nav nav-pills">
+              <ul class="nav nav-pills pull-right">
+                <li role="presentation"><a href="#">About</a></li>
+                <li role="presentation"><a href="#">Contact</a></li>
+                <li role="presentation"><a href="#">Porfoilio</a></li>
+              </ul>
+            </nav>
+          </div>
+
+      </div> <!-- end of code for bootstrap nav bar  -->
+
+      <div class="heading">
+        <div class"row">
+          <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+            <h2> Contact Information </h2>
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Full Name</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted"></small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Message</label>
+                <input type="message" class="form-control" id="message" placeholder="Share your Message with us!">
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+        <!-- end of the contact form -->
+
+          <div class="connections">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <h2> Connect with Me </h2>
+              <i class="fab fa-github fa-5x"></i>
+              <i class="fab fa-linkedin fa-5x"></i>
+              <i class="fab fa-stack-overflow fa-5x"></i>
+              <i class="fab fa-hooli fa-5x"></i>
+          </div>
+        </div>
+      </div>
+      <!-- end of the connect with me -->
+      <div class="footer">
+          <div class="row ">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+              <div class="row">
+                <div class="col-xs-8-push col-sm-6-push col-md-6-push col-lg-8">
+                  <h3> &copy;2018 Levi Glendenning</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>

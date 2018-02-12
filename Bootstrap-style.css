@@ -1,0 +1,32 @@
+
+*{
+  font-family: Georgia, Times, "Times New Roman", serif;
+
+}
+
+
+body{
+
+}
+
+.Levi{
+  font-weight: 700;
+  color: #4aaaa5;
+}
+
+ h1{
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
+
+}
+h2{
+  border-bottom: 2px solid #eee;
+}
+.connections{
+  border-bottom: 2px solid #eee;
+}
+.footer h2{
+  color: #fff;
+  color: #ccc;
+}
